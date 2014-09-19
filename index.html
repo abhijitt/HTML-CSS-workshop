@@ -40,6 +40,15 @@
                 <br><h3>You will need:<br></h3>
                 -A text editor<br><br><br>
                 <div style="float:left">
+                    <span style="margin-left:-70px;">Linux<br></span>
+                    <ul>
+                        <li>VIM
+                        <li>Emacs
+                        <li>Sublime Text
+                        <li>Geany
+                    </ul>
+                </div>
+                <div>
                     Windows<br>
                     <ul>
                         <li>Notepad
@@ -47,21 +56,20 @@
                         <li>Sublime Text
                     </ul>
                 </div>
-                <div>
-                    Linux<br>
-                    <ul>
-                        <li>VIM
-                        <li>Emacs
-                        <li>Sublime Text
-                    </ul>
-                </div>
-                <br><br><br>WnCC favourite - Sublime Text
+                <br><br>WnCC favourite - Sublime Text
             </section>
             <section>
                 <br><h3>You will need:<br></h3>
                 -A web browser<br><br>
                 <div style="float:left">
-                    Windows<br>
+                    <span style="margin-left:-300px;"> Linux<br></span>
+                    <ul>
+                        <li>Mozilla Firefox
+                        <li>Chromium / Google Chrome
+                    </ul>
+                </div>
+                <div>
+                    <span style="margin-left:-80px;">Windows<br></span>
                     <ul>
                         <li>Internet Explorer
                         <li>Safari
@@ -70,14 +78,7 @@
                         <li>Mozilla Firefox
                     </ul>
                 </div>
-                <div>
-                    Linux<br>
-                    <ul>
-                        <li>Mozilla Firefox
-                        <li>Chromium / Google Chrome
-                    </ul>
-                </div>
-                <br><br><br><br>WnCC favourite - Firefox / Chrome
+                <br><br>WnCC favourite - Firefox / Chrome
             </section>
             <section>
                 <img src="Images/ie.jpeg" height="650px">
@@ -117,22 +118,6 @@
                 </pre></code>
             </section>
             <section>
-                <br><h3>Tag Attributes</h3><br>
-                Some tags have optional (or compulsory) attributes<br>
-                For example<br>
-                <pre><code class="Hybrid">
-                    &lt;body bgcolor="blue"&gt;
-                </pre></code>
-                To add an image, do the following
-                <pre><code class="Hybrid">
-                    &lt;img src="file/path/name.jpg"&gt;
-                </pre></code>
-                Hyperlinks!
-                <pre><code class="Hybrid">
-                    &lt;a href="http://www.google.co.in"&gt;Go to Google&lt;/a&gt;
-                </pre></code>
-            </section>
-            <section>
                 <h4>Some more useful tags</h4>
                 Break to a new line
                 <pre><code class="Hybrid">
@@ -155,6 +140,58 @@
                 </pre></code>
             </section>
             <section>
+                <br><h3>Tag Attributes</h3>
+                Some tags have optional (or compulsory) attributes<br><br>
+                For example<br>
+                <pre><code class="Hybrid">
+                    &lt;body bgcolor="blue"&gt;
+                </pre></code>
+                To add an image, do the following
+                <pre><code class="Hybrid">
+                    &lt;img src="file/path/name.jpg" alt="fluffy cat"&gt;
+                </pre></code>
+                Hyperlinks!
+                <pre><code class="Hybrid">
+                    &lt;a href="http://www.google.co.in"&gt;Go to Google&lt;/a&gt;
+                </pre></code>
+            </section>
+            <section>
+                <br><h3>Nesting</h3><br>
+                Make your code look neater<br><br>
+                <pre><code class="Hybrid">
+                    &lt;html&gt;
+                        &lt;head&gt;
+                            &lt;title&gt;Woofwoof&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;img src="chihuahua.jpg" width:"100px"&gt;
+                            &lt;p&gt;I love dogs and my favourite is this one.
+                            I also love-&lt;/p&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;Cows&lt;/li&gt;
+                                &lt;li&gt;Platypus/Platypuses/Platypi?&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre></code>
+            </section>
+            <section>
+                <br><h3>HTML Entities</h3><br>
+                HTML can render entities that aren't present on a keyboard
+                <pre><code class="Hybrid">
+                        &nbsp;&nbsp;&nbsp; non-breaking space    &amp;nbsp;
+                        &lt;   less than             &amp;lt;
+                        &gt;   greater than          &amp;gt;
+                        &amp;   ampersand             &amp;amp;
+                        &cent;   cent                  &amp;cent;
+                        &pound;   pound                 &amp;pound;
+                        &yen;   yen                   &amp;yen;
+                        &euro;   euro                  &amp;euro;
+                        &copy;   copyright             &amp;copy;
+                        &reg;   registered trademark  &amp;reg;
+                </pre></code>
+            </section>
+            <section>
                 <br><h1>CRTL</h1><br><h1>'U'rself!</h1><br><br>
                 To view the source code of any webpage<br>
                 Press Ctrl + U 
@@ -163,13 +200,13 @@
         <section>
             <section>
                 <br><h3>CSS - Cascading Style Sheets</h3><br>
-                <h4>Making beautification of webpages simple</h4><br>
-                Three ways to add CSS to your page-
-                <ul>
-                    <li>External CSS file
+                <h4>Making beautification of webpages simple</h4><br><br>
+                <span style="margin-left:-70px;">Three ways to add CSS to your page-</span>
+                <ol>
+                    <br><li>External CSS file
                     <li>Using style tag in the head of the document
                     <li>Adding style attribute to a tag
-                </ul>
+                </ol>
             </section>
             <section>
                 <br><h4>External CSS file</h4>
@@ -194,7 +231,7 @@
                 </pre></code>
             </section>
             <section>
-                <br><h4>Lets look at some CSS Code</h4>
+                <br><h3>Lets look at some CSS Code</h3><br>
                 <pre><code class="Hybrid">
                     body{
                         background-image: url("file/path/name.jpg");
@@ -235,6 +272,7 @@
                 <a href="http://www.cc.iitb.ac.in/engtutorials/97-how-to-create-hompage-on-homepagesiitbaci">Instruction page</a>
                 <br><br>HTML5 tags <a href="http://568397435.r.lightningbase-cdn.com/wp-content/uploads/2014/02/html5-cheat-sheet.png">cheat sheet</a><br>
                 <br><a href="http://www.w3schools.com">W3Schools</a>
+                <br><a href="http://www.w3schools.com">
             </section>
         </section>
       </div>
